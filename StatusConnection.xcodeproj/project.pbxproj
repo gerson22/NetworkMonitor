@@ -15,6 +15,7 @@
 		AB1255E325DC4A0D009E6529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1255E125DC4A0D009E6529 /* LaunchScreen.storyboard */; };
 		AB1255EE25DC4A0E009E6529 /* StatusConnectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1255ED25DC4A0E009E6529 /* StatusConnectionTests.swift */; };
 		AB1255F925DC4A0E009E6529 /* StatusConnectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1255F825DC4A0E009E6529 /* StatusConnectionUITests.swift */; };
+		AB12560A25DC4AEC009E6529 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB12560925DC4AEC009E6529 /* NetworkMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AB1255F425DC4A0E009E6529 /* StatusConnectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatusConnectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1255F825DC4A0E009E6529 /* StatusConnectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusConnectionUITests.swift; sourceTree = "<group>"; };
 		AB1255FA25DC4A0F009E6529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB12560925DC4AEC009E6529 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				AB1255DF25DC4A0D009E6529 /* Assets.xcassets */,
 				AB1255E125DC4A0D009E6529 /* LaunchScreen.storyboard */,
 				AB1255E425DC4A0D009E6529 /* Info.plist */,
+				AB12560925DC4AEC009E6529 /* NetworkMonitor.swift */,
 			);
 			path = StatusConnection;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB1255DB25DC4A01009E6529 /* ViewController.swift in Sources */,
+				AB12560A25DC4AEC009E6529 /* NetworkMonitor.swift in Sources */,
 				AB1255D725DC4A01009E6529 /* AppDelegate.swift in Sources */,
 				AB1255D925DC4A01009E6529 /* SceneDelegate.swift in Sources */,
 			);
